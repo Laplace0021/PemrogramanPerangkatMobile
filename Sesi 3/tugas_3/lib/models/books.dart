@@ -4,7 +4,7 @@ class BookModel {
   final String author;
   final double price;
   final String category;
-  final String? imgurl;
+  final String? imgUrl;
 
   const BookModel({
     required this.id,
@@ -12,6 +12,6 @@ class BookModel {
     required this.author,
     required this.price,
     required this.category,
-    this.imgurl,
+    this.imgUrl,
   });
 }
