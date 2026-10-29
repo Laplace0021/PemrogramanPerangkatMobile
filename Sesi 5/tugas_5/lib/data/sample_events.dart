@@ -1,0 +1,148 @@
+import '../models/event_item.dart';
+
+final List<EventItem> sampleEvents = [
+  EventItem(
+    id: 'e1',
+    title: 'Generative AI untuk Produktivitas Kampus',
+    speaker: 'Dr. Raka Pratama, M.Kom.',
+    category: EventCategory.ai,
+    startDate: DateTime(2026, 11, 12),
+    endDate: DateTime(2026, 11, 12),
+    time: '09.00 – 12.00 WIB',
+    location: 'Panggung Utama',
+    quota: 200,
+    registered: 148,
+    price: 0,
+    skp: 2,
+    posterAsset: 'images/posters/poster_e1.png',
+    description:
+        'Pengenalan prompt engineering, asisten riset, dan otomasi tugas '
+        'akademik menggunakan model bahasa besar secara etis dan efektif.',
+  ),
+  EventItem(
+    id: 'e2',
+    title: 'Workshop Flutter: Membangun Aplikasi Material 3',
+    speaker: 'Sinta Maharani, S.T.',
+    category: EventCategory.mobile,
+    startDate: DateTime(2026, 11, 13),
+    endDate: DateTime(2026, 11, 14),
+    time: '08.30 – 16.00 WIB',
+    location: 'Lab Hands-on (Mobile)',
+    quota: 40,
+    registered: 36,
+    price: 35000,
+    skp: 4,
+    posterAsset: 'images/posters/poster_e2.png',
+    description:
+        'Praktik langsung membuat aplikasi Flutter dari nol: layout responsif, '
+        'form validasi ketat, navigasi, dan state management. Peserta membawa laptop sendiri.',
+  ),
+  EventItem(
+    id: 'e3',
+    title: 'IoT Smart Farming dengan ESP32',
+    speaker: 'Ir. Bayu Setiawan, M.T.',
+    category: EventCategory.iot,
+    startDate: DateTime(2026, 11, 19),
+    endDate: DateTime(2026, 11, 19),
+    time: '09.00 – 15.00 WIB',
+    location: 'Lab Hands-on (IoT)',
+    quota: 50,
+    registered: 31,
+    price: 45000,
+    skp: 3,
+    posterAsset: 'images/posters/poster_e3.png',
+    description:
+        'Merangkai sensor kelembapan tanah dan suhu pada ESP32, lalu mengirim '
+        'data sensor ke dashboard cloud secara real-time.',
+  ),
+  EventItem(
+    id: 'e4',
+    title: 'Ethical Hacking & Zero Trust',
+    speaker: 'Dimas Aryo, OSCP',
+    category: EventCategory.cybersecurity,
+    startDate: DateTime(2026, 11, 20),
+    endDate: DateTime(2026, 11, 21),
+    time: '09.00 – 16.00 WIB',
+    location: 'Cyber Arena',
+    quota: 60,
+    registered: 60,
+    price: 50000,
+    skp: 4,
+    posterAsset: 'images/posters/poster_e4.png',
+    description:
+        'Penerapan arsitektur Zero Trust dan alur dasar penetration testing: '
+        'reconnaissance, vulnerability scanning, dan hardening sistem pada lingkungan terisolasi.',
+  ),
+  EventItem(
+    id: 'e5',
+    title: 'Machine Learning dengan TensorFlow Lite',
+    speaker: 'Dr. Laras Wulandari',
+    category: EventCategory.ai,
+    startDate: DateTime(2026, 11, 26),
+    endDate: DateTime(2026, 11, 26),
+    time: '13.00 – 17.00 WIB',
+    location: 'Lab Hands-on (Mobile)',
+    quota: 45,
+    registered: 42,
+    price: 40000,
+    skp: 3,
+    posterAsset: 'images/posters/poster_e5.png',
+    description:
+        'Melatih model klasifikasi gambar ringan dan mengintegrasikannya '
+        'langsung pada aplikasi mobile Android & iOS.',
+  ),
+  EventItem(
+    id: 'e6',
+    title: 'Kotlin Multiplatform vs Flutter: Memilih Stack Mobile',
+    speaker: 'Fajar Nugroho, S.Kom.',
+    category: EventCategory.mobile,
+    startDate: DateTime(2026, 11, 27),
+    endDate: DateTime(2026, 11, 27),
+    time: '10.00 – 12.00 WIB',
+    location: 'Panggung Utama',
+    quota: 120,
+    registered: 64,
+    price: 0,
+    skp: 2,
+    posterAsset: 'images/posters/poster_e6.png',
+    description:
+        'Diskusi panel mendalam membandingkan performa rendering, developer experience, '
+        'ekosistem library, dan efisiensi tim dalam memilih stack mobile kampus.',
+  ),
+  EventItem(
+    id: 'e7',
+    title: 'Edge AI & TinyML pada Mikrokontroler',
+    speaker: 'Prof. Hendra Kusuma',
+    category: EventCategory.iot,
+    startDate: DateTime(2026, 12, 3),
+    endDate: DateTime(2026, 12, 3),
+    time: '09.00 – 14.00 WIB',
+    location: 'Lab Hands-on (IoT)',
+    quota: 35,
+    registered: 20,
+    price: 50000,
+    skp: 3,
+    posterAsset: 'images/posters/poster_e7.png',
+    description:
+        'Menjalankan model deep learning ringan langsung di MCU berdaya ultra-rendah '
+        'untuk deteksi anomali getaran dan pengenalan suara offline.',
+  ),
+  EventItem(
+    id: 'e8',
+    title: 'OWASP Top 10: Amankan Aplikasi Web & API',
+    speaker: 'Nadia Putri, CEH',
+    category: EventCategory.cybersecurity,
+    startDate: DateTime(2026, 12, 4),
+    endDate: DateTime(2026, 12, 5),
+    time: '09.00 – 15.00 WIB',
+    location: 'Cyber Arena',
+    quota: 70,
+    registered: 41,
+    price: 45000,
+    skp: 4,
+    posterAsset: 'images/posters/poster_e8.png',
+    description:
+        'Membedah sepuluh risiko keamanan aplikasi paling kritis dan langkah remediasi '
+        'konkret melalui studi kasus simulasi penyerangan langsung.',
+  ),
+];
